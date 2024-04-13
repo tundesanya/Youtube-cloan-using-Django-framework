@@ -1,0 +1,32 @@
+[Django]
+SECRET_KEY = 
+DEBUG = True
+ALLOWED_HOSTS = *
+
+[PostgreSQL]
+DBNAME = 
+HOST = 
+PORT = 
+USER = 
+PASSWORD = 
+
+[AWS]
+ACCESS_KEY_ID =
+SECRET_ACCESS_KEY =
+STORAGE_BUCKET_NAME =
+S3_REGION_NAME =
+S3_CUSTOM_DOMAIN =
+
+[Email]
+EMAIL_HOST_USER =
+EMAIL_HOST_PASSWORD =
+
+; Google OAuth2 credentials from Google Developer Console
+[Google]
+OAUTH2_CLIENT_ID =
+OAUTH2_CLIENT_SECRET =
+OAUTH2_REDIRECT_URI =
+
+[Development]
+DHOST_URL = 
+NTFY_TOPIC =

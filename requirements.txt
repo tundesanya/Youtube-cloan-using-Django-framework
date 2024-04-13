@@ -1,0 +1,38 @@
+# [Core]
+Django==4.2.8
+django-extensions
+requests
+# gnuicorn
+
+# [REST]
+djangorestframework
+Markdown
+django-filter
+
+# [Extra]
+Pillow
+django-countries[pyuca]
+
+# [Auth & Security]
+django-rest-knox
+# django-guardian
+
+# [Database]
+psycopg[binary]
+
+# [File Storage]
+boto3
+django-storages
+
+# # [Development]
+# pygraphviz  # Requires Graphviz & a C/C++ compiler to be installed
+# # For Windows use the following command in cmd/powershell:
+# # ```
+# # python -m pip install --use-pep517 `
+# #               --config-settings="--global-option=build_ext" `
+# #               --config-settings="--global-option=-IC:\Program Files\Graphviz\include" `
+# #               --config-settings="--global-option=-LC:\Program Files\Graphviz\lib" `
+# #               pygraphviz
+# # ```
+# pyparsing
+# pydot
